@@ -11,14 +11,36 @@
 		304FCF3427DA54E6007A249E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304FCF3327DA54E6007A249E /* ContentView.swift */; };
 		304FCF3627DA54E7007A249E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304FCF3527DA54E7007A249E /* Assets.xcassets */; };
 		304FCF3927DA54E7007A249E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304FCF3827DA54E7007A249E /* Preview Assets.xcassets */; };
+		304FCF4227DA5594007A249E /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304FCF4127DA5594007A249E /* Landmark.swift */; };
+		304FCF4427DA55B1007A249E /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 304FCF4327DA55B1007A249E /* landmarkData.json */; };
+		304FCF4627DA564C007A249E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304FCF4527DA564C007A249E /* ModelData.swift */; };
+		304FCF4A27DA5716007A249E /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304FCF4927DA5716007A249E /* LandmarkRow.swift */; };
+		304FCF4C27DA57FD007A249E /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304FCF4B27DA57FD007A249E /* LandmarkList.swift */; };
+		304FCF4E27DA5935007A249E /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304FCF4D27DA5935007A249E /* LandmarkDetail.swift */; };
+		304FCF5027DA59CC007A249E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304FCF4F27DA59CC007A249E /* MapView.swift */; };
+		304FCF5227DA59FF007A249E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304FCF5127DA59FF007A249E /* CircleImage.swift */; };
+		308B3F5327DBAEFC00B31E83 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308B3F5227DBAEFC00B31E83 /* Launch Screen.storyboard */; };
+		30E71D4B27DD24E00093A2A9 /* currentday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E71D4A27DD24E00093A2A9 /* currentday.swift */; };
+		30E71D4D27DD259E0093A2A9 /* brands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E71D4C27DD259E0093A2A9 /* brands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		304FCF2E27DA54E6007A249E /* Landmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		304FCF2E27DA54E6007A249E /* Oberalp BI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oberalp BI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		304FCF3127DA54E6007A249E /* LandmarkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkApp.swift; sourceTree = "<group>"; };
 		304FCF3327DA54E6007A249E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		304FCF3527DA54E7007A249E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		304FCF3827DA54E7007A249E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		304FCF4127DA5594007A249E /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		304FCF4327DA55B1007A249E /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		304FCF4527DA564C007A249E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		304FCF4927DA5716007A249E /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRow.swift; path = OberalpBI/LandmarkRow.swift; sourceTree = SOURCE_ROOT; };
+		304FCF4B27DA57FD007A249E /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		304FCF4D27DA5935007A249E /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		304FCF4F27DA59CC007A249E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		304FCF5127DA59FF007A249E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		308B3F5227DBAEFC00B31E83 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		30E71D4A27DD24E00093A2A9 /* currentday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currentday.swift; sourceTree = "<group>"; };
+		30E71D4C27DD259E0093A2A9 /* brands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +57,8 @@
 		304FCF2527DA54E6007A249E = {
 			isa = PBXGroup;
 			children = (
-				304FCF3027DA54E6007A249E /* Landmark */,
+				308B3F5227DBAEFC00B31E83 /* Launch Screen.storyboard */,
+				304FCF3027DA54E6007A249E /* OberalpBI */,
 				304FCF2F27DA54E6007A249E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,36 +66,54 @@
 		304FCF2F27DA54E6007A249E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				304FCF2E27DA54E6007A249E /* Landmark.app */,
+				304FCF2E27DA54E6007A249E /* Oberalp BI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		304FCF3027DA54E6007A249E /* Landmark */ = {
+		304FCF3027DA54E6007A249E /* OberalpBI */ = {
 			isa = PBXGroup;
 			children = (
+				304FCF4927DA5716007A249E /* LandmarkRow.swift */,
+				304FCF4B27DA57FD007A249E /* LandmarkList.swift */,
+				304FCF4D27DA5935007A249E /* LandmarkDetail.swift */,
+				304FCF4F27DA59CC007A249E /* MapView.swift */,
+				304FCF5127DA59FF007A249E /* CircleImage.swift */,
 				304FCF3127DA54E6007A249E /* LandmarkApp.swift */,
 				304FCF3327DA54E6007A249E /* ContentView.swift */,
+				304FCF4827DA56D8007A249E /* Model */,
 				304FCF3527DA54E7007A249E /* Assets.xcassets */,
 				304FCF3727DA54E7007A249E /* Preview Content */,
 			);
-			path = Landmark;
+			path = OberalpBI;
 			sourceTree = "<group>";
 		};
 		304FCF3727DA54E7007A249E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
 				304FCF3827DA54E7007A249E /* Preview Assets.xcassets */,
+				304FCF4327DA55B1007A249E /* landmarkData.json */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		304FCF4827DA56D8007A249E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30E71D4C27DD259E0093A2A9 /* brands.swift */,
+				30E71D4A27DD24E00093A2A9 /* currentday.swift */,
+				304FCF4527DA564C007A249E /* ModelData.swift */,
+				304FCF4127DA5594007A249E /* Landmark.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		304FCF2D27DA54E6007A249E /* Landmark */ = {
+		304FCF2D27DA54E6007A249E /* OberalpBI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 304FCF3C27DA54E7007A249E /* Build configuration list for PBXNativeTarget "Landmark" */;
+			buildConfigurationList = 304FCF3C27DA54E7007A249E /* Build configuration list for PBXNativeTarget "OberalpBI" */;
 			buildPhases = (
 				304FCF2A27DA54E6007A249E /* Sources */,
 				304FCF2B27DA54E6007A249E /* Frameworks */,
@@ -82,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = Landmark;
+			name = OberalpBI;
 			productName = Landmark;
-			productReference = 304FCF2E27DA54E6007A249E /* Landmark.app */;
+			productReference = 304FCF2E27DA54E6007A249E /* Oberalp BI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 304FCF2927DA54E6007A249E /* Build configuration list for PBXProject "Landmark" */;
+			buildConfigurationList = 304FCF2927DA54E6007A249E /* Build configuration list for PBXProject "OberalpBI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				304FCF2D27DA54E6007A249E /* Landmark */,
+				304FCF2D27DA54E6007A249E /* OberalpBI */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +168,8 @@
 			files = (
 				304FCF3927DA54E7007A249E /* Preview Assets.xcassets in Resources */,
 				304FCF3627DA54E7007A249E /* Assets.xcassets in Resources */,
+				308B3F5327DBAEFC00B31E83 /* Launch Screen.storyboard in Resources */,
+				304FCF4427DA55B1007A249E /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +181,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				304FCF3427DA54E6007A249E /* ContentView.swift in Sources */,
+				304FCF5027DA59CC007A249E /* MapView.swift in Sources */,
+				30E71D4B27DD24E00093A2A9 /* currentday.swift in Sources */,
+				304FCF4C27DA57FD007A249E /* LandmarkList.swift in Sources */,
+				304FCF4627DA564C007A249E /* ModelData.swift in Sources */,
 				304FCF3227DA54E6007A249E /* LandmarkApp.swift in Sources */,
+				304FCF5227DA59FF007A249E /* CircleImage.swift in Sources */,
+				304FCF4A27DA5716007A249E /* LandmarkRow.swift in Sources */,
+				304FCF4227DA5594007A249E /* Landmark.swift in Sources */,
+				30E71D4D27DD259E0093A2A9 /* brands.swift in Sources */,
+				304FCF4E27DA5935007A249E /* LandmarkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,15 +318,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Landmark/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OberalpBI/Preview Content\"";
 				DEVELOPMENT_TEAM = NG955444T3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -282,8 +336,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.avantsystem.Landmark;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avantsystem.OberalpBI;
+				PRODUCT_NAME = "Oberalp BI";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,15 +349,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Landmark/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OberalpBI/Preview Content\"";
 				DEVELOPMENT_TEAM = NG955444T3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,8 +367,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.avantsystem.Landmark;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avantsystem.OberalpBI;
+				PRODUCT_NAME = "Oberalp BI";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +378,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		304FCF2927DA54E6007A249E /* Build configuration list for PBXProject "Landmark" */ = {
+		304FCF2927DA54E6007A249E /* Build configuration list for PBXProject "OberalpBI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				304FCF3A27DA54E7007A249E /* Debug */,
@@ -331,7 +387,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		304FCF3C27DA54E7007A249E /* Build configuration list for PBXNativeTarget "Landmark" */ = {
+		304FCF3C27DA54E7007A249E /* Build configuration list for PBXNativeTarget "OberalpBI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				304FCF3D27DA54E7007A249E /* Debug */,

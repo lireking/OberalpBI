@@ -8,17 +8,22 @@
 import SwiftUI
 
 struct LandmarkList: View {
+    
+    @State var brands = [Brands]()
+    
     var body: some View {
-        NavigationView {
-            List(landmarks) { landmark in
+        NavigationView {            
+            List(brands) { brand in
+            //List(landmarks) { landmark in
                 NavigationLink {
-                    LandmarkDetail(landmark: landmark)
+                    LandmarkDetail(brand: brand)
                 } label: {
-                    LandmarkRow(landmark: landmark)
+                    LandmarkRow(brand: brand)
                 }
             }
-            .navigationTitle("Landmarks")
+            .navigationTitle("Brands")
         }
+        .navigationViewStyle(.stack) // Fix für NavigationView
     }
 }
 
